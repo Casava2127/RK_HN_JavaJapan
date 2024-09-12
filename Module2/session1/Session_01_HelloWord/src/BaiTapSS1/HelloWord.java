@@ -1,4 +1,4 @@
-package ra;
+package BaiTapSS1;
 import java.util.*;
 public class HelloWord {
     public static void main(String[] args) {
