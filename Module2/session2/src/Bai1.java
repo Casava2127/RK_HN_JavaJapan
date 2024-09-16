@@ -1,5 +1,3 @@
-package Session2_Loop;
-
 import java.util.Scanner;
 
 public class Bai1 {
