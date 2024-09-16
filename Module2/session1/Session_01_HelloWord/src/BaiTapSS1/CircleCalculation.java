@@ -31,4 +31,3 @@ public class CircleCalculation {
         scanner.close();
     }
 }
-
