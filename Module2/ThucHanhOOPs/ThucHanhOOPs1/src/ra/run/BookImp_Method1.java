@@ -10,7 +10,6 @@ public class BookImp_Method1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;
-
         System.out.print("Nhập số lượng sách: ");
         n = scanner.nextInt();
         Book_Method1[] books = new Book_Method1[n];
@@ -78,7 +77,7 @@ public class BookImp_Method1 {
         for (int i = 0; i < books.length - 1; i++) {
             for (int j = 0; j < books.length - 1 - i; j++) {
                 if (books[j].getExportPrice() > books[j + 1].getExportPrice()) {
-                    // Hoán đổi vị trí
+                    // Hoán đổi v ị trí
                     Book_Method1 temp = books[j];
                     books[j] = books[j + 1];
                     books[j + 1] = temp;

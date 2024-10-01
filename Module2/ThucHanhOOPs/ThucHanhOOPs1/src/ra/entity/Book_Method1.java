@@ -73,16 +73,14 @@ public class Book_Method1 {
     // Phương thức nhập dữ liệu
     public void input() {
         Scanner scanner = new Scanner(System.in);
-
         // Nhập bookId
         System.out.print("Nhập mã sách (bookId): ");
         this.bookId = scanner.nextLine();
-
         // Nhập bookName
         do {
             System.out.print("Nhập tên sách (4 ký tự, bắt đầu bằng 'B'): ");
             this.bookName = scanner.nextLine();
-        } while (!isValidBookName(this.bookName));
+        } while (!isValidBookName(this.bookName)); // phuong thuc kiem tra
 
         // Nhập giá nhập
         do {
@@ -99,7 +97,7 @@ public class Book_Method1 {
         // Nhập tác giả
         do {
             System.out.print("Nhập tác giả (6-50 ký tự): ");
-            scanner.nextLine(); // Clear buffer
+//            scanner.nextLine(); // Clear buffer
             this.author = scanner.nextLine();
         } while (!isValidAuthor(this.author));
 
@@ -112,7 +110,6 @@ public class Book_Method1 {
         // Tính lợi nhuận
         this.interest = calculateInterest();
     }
-
     // Phương thức hiển thị dữ liệu
     public void display() {
         System.out.printf("Mã sách: %s, Tên sách: %s, Giá nhập: %.2f, Giá xuất: %.2f, Tác giả: %s, Lợi nhuận: %.2f, Năm xuất bản: %d%n",
