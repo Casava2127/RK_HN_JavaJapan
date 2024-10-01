@@ -11,7 +11,6 @@ public class Book {
     private int year;
 
 
-
     // Constructor có tham số
     public Book(String bookId, String bookName, float importPrice, float exportPrice, String author, int year) {
         this.bookId = bookId;
@@ -37,6 +36,7 @@ public class Book {
         return bookName;
     }
 
+    // viet dieu kien nhap vao ben trong set - get de truy van du lieu
     public void setBookName(String bookName) {
         // viết trực tiếp validate trong hàm set
         if (bookName != null && bookName.length() == 4 && bookName.charAt(0) == 'B') {
