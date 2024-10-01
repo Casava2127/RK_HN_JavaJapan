@@ -65,7 +65,6 @@ public class BookIImp {
         System.out.print("Nhập số lượng sách: ");
         int n = scanner.nextInt();
         scanner.nextLine(); // Đọc ký tự newline còn sót
-
         for (int i = 0; i < n; i++) {
             System.out.println("Nhập thông tin sách thứ " + (i + 1));
             System.out.print("Mã sách: ");
@@ -82,18 +81,19 @@ public class BookIImp {
             System.out.print("Năm xuất bản sau năm 2000: ");
             int year = scanner.nextInt();
             scanner.nextLine(); // Đọc ký tự newline còn sót
-
             try {
-                Book book = new Book(bookId, bookName, importPrice, exportPrice, author, year);
+                Book book = new Book(bookId, bookName, importPrice, exportPrice, author, year); // tao doi tuong book sau khi co cac truong gia tri
+                //vi ban dau khong tao construct mac dinh nen lam cach nay cung hop ly
                 bookList.add(book);
             } catch (IllegalArgumentException e) { // bắt lỗi validate
                 System.out.println("Lỗi khi nhập sách: " + e.getMessage());
                 i--; // Thử nhập lại sách này
+                //diem yeu cua cach nhao naylla neu nhap sai thi phai nhap lai TAT CA cac truong
             }
         }
     }
 
-    // 2. Tính lợi nhuận các sách
+    // 2. Tính lợi nhuận TAT CA sách
     private static void calculateInterests() {
         float interest = 0;
         for (Book book : bookList) {
@@ -112,6 +112,7 @@ public class BookIImp {
 
     // 4. Sắp xếp sách theo giá bán tăng dần
     private static void sortBooksByPrice() {
+        // coi lai bai array de xem nhieu cach sap xep
         bookList.sort(Comparator.comparing(Book::getExportPrice));
         System.out.println("Đã sắp xếp sách theo giá bán tăng dần.");
     }
@@ -128,7 +129,7 @@ public class BookIImp {
         String name = scanner.nextLine();
         boolean found = false;
         for (Book book : bookList) {
-            if (book.getBookName().equalsIgnoreCase(name)) {
+            if (book.getBookName().equalsIgnoreCase(name)) { // so sanh chuoi
                 book.displayBookData();
                 found = true;
             }

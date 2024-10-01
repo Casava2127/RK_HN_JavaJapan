@@ -1,33 +1,44 @@
 package ra.entity;
 
 public class Book {
-    // định nghĩa các thuộc tính quan tâm
-    private String bookId;
-    private String bookName;
-    private float importPrice;
-    private float exportPrice;
-    private String author;
-    private float interest;
-    private int year;
 
+    // định nghĩa các thuộc tính quan tâm
+    // dinh nghia cac thuoc tinh la private
+    private String bookId; // duy nhat
+    private String bookName; //khong trung la, 4 kky tu, bat dau bang B
+    private float importPrice; // >0
+    private float exportPrice; //>30% importPrice
+    private String author; // 6-50 ky tu
+    private float interest; // xuat- nhap
+    private int year;// sau 2000
+
+<<<<<<< HEAD:Module2/ThucHanhOOPs/ThucHanhOOPs/src/ra/entity/Book.java
 
     // Constructor có tham số
+=======
+    //construcotr mac dinh - doc phan sau de hieu vi sao boi den
+//    public Book() {
+//
+//    };
+    // Constructor Declaration
+>>>>>>> b13bd38d4fea39da0fee9d43a0b035ed39946771:Module2/ThucHanhOOPs/ThucHanhOOPs1/src/ra/entity/Book.java
     public Book(String bookId, String bookName, float importPrice, float exportPrice, String author, int year) {
         this.bookId = bookId;
-        //các giá trị caafn Validate thì hãy dùng hàm set để viết
+        //các giá trị caafn Validate thì hãy dùng hàm set để viết - luc nay ta da them dieu kien vao set
         setBookName(bookName); // Validate tên sách
         setImportPrice(importPrice); // Validate giá nhập
         setExportPrice(exportPrice); // Validate giá xuất
         setAuthor(author); // Validate tên tác giả
         setYear(year); // Validate năm xuất bản
-        this.interest = calculateInterest();
+        this.interest = calculateInterest(); // Validate interest is returned by this method
+
+        // dieu nay co nghia la interest la gia tri minh khong the set ban dau ma no la gia tri tra ve cua doi tuong book
     }
 
     // Getters và Setters
     public String getBookId() {
         return bookId;
     }
-
     public void setBookId(String bookId) {
         this.bookId = bookId;
     }
@@ -35,13 +46,17 @@ public class Book {
     public String getBookName() {
         return bookName;
     }
+<<<<<<< HEAD:Module2/ThucHanhOOPs/ThucHanhOOPs/src/ra/entity/Book.java
 
     // viet dieu kien nhap vao ben trong set - get de truy van du lieu
+=======
+>>>>>>> b13bd38d4fea39da0fee9d43a0b035ed39946771:Module2/ThucHanhOOPs/ThucHanhOOPs1/src/ra/entity/Book.java
     public void setBookName(String bookName) {
         // viết trực tiếp validate trong hàm set
         if (bookName != null && bookName.length() == 4 && bookName.charAt(0) == 'B') {
             this.bookName = bookName;
         } else {
+            // tra ve 1 errata
             throw new IllegalArgumentException("Tên sách phải có 4 ký tự và bắt đầu bằng chữ 'B'.");
         }
     }
@@ -49,7 +64,6 @@ public class Book {
     public float getImportPrice() {
         return importPrice;
     }
-
     public void setImportPrice(float importPrice) {
         // viết validate
         if (importPrice > 0) {
@@ -62,7 +76,6 @@ public class Book {
     public float getExportPrice() {
         return exportPrice;
     }
-
     public void setExportPrice(float exportPrice) {
         if (exportPrice > importPrice * 1.3f) {
             this.exportPrice = exportPrice;
@@ -74,7 +87,6 @@ public class Book {
     public String getAuthor() {
         return author;
     }
-
     public void setAuthor(String author) {
         if (author != null && author.length() >= 6 && author.length() <= 50) {
             this.author = author;
@@ -86,7 +98,7 @@ public class Book {
     public float getInterest() {
         return interest;
     }
-    // không set được Interest vì nó phụ thuộc vào 2 giá trị nhập và xuất
+    // không set được Interest vì nó phụ thuộc vào 2 giá trị nhập và xuấ
 
     public int getYear() {
         return year;
@@ -107,9 +119,8 @@ public class Book {
 
     // Phương thức nhập dữ liệu sách
     public void inputBookData() {
-        // Bạn có thể sử dụng Scanner để nhập dữ liệu từ bàn phím và validate
+        // co the dinh nghia hoac khong
     }
-
     // Phương thức hiển thị dữ liệu sách
     public void displayBookData() {
         System.out.println("Mã sách: " + this.bookId);
@@ -120,5 +131,4 @@ public class Book {
         System.out.println("Lợi nhuận: " + this.interest);
         System.out.println("Năm xuất bản: " + this.year);
     }
-
 }
