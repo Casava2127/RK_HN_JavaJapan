@@ -1,0 +1,90 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS F:\VsCodeLap\HNPTHBJV240711\Module2\JDBC> git add .
+PS F:\VsCodeLap\HNPTHBJV240711\Module2\JDBC> git commit -m"JDBC240711"
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS F:\VsCodeLap\HNPTHBJV240711\Module2\JDBC> cd ..
+PS F:\VsCodeLap\HNPTHBJV240711\Module2> cd ..
+PS F:\VsCodeLap\HNPTHBJV240711> git add Module2\JDBC
+PS F:\VsCodeLap\HNPTHBJV240711> git commit -m"JDBC240711"
+Your branch is up to date with 'origin/main'.
+
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/HNPTHBJV240711.iml
+        modified:   .idea/modules.xml
+        deleted:    main.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS F:\VsCodeLap\HNPTHBJV240711> git push --set-upstream origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+PS F:\VsCodeLap\HNPTHBJV240711> git add Module2/JDBC
+PS F:\VsCodeLap\HNPTHBJV240711> git commit -m"JDBC240711"
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/HNPTHBJV240711.iml
+        modified:   .idea/modules.xml
+        deleted:    main.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS F:\VsCodeLap\HNPTHBJV240711> git status
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+        modified:   .idea/HNPTHBJV240711.iml
+        modified:   .idea/modules.xml
+        deleted:    main.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS F:\VsCodeLap\HNPTHBJV240711> git add .
+PS F:\VsCodeLap\HNPTHBJV240711> git commit -m "JDBC240711"
+[main 071058f] JDBC240711
+ 3 files changed, 8 insertions(+), 50 deletions(-)
+PS F:\VsCodeLap\HNPTHBJV240711> git push origin main
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 674 bytes | 674.00 KiB/s, done.
+To https://github.com/Casava2127/RK_HN_JavaJapan.git
+   67d564a..071058f  main -> main
+PS F:\VsCodeLap\HNPTHBJV240711> git add/Module2/JDBC/src/ra/entity
+git: 'add/Module2/JDBC/src/ra/entity' is not a git command. See 'git --help'.
+PS F:\VsCodeLap\HNPTHBJV240711> git add Module2/JDBC/src/ra/entity
+The following paths are ignored by one of your .gitignore files:
+Module2/JDBC/src/ra
+hint: Use -f if you really want to add them.
+hint: Disable this message with "git config advice.addIgnoredFile false"
+PS F:\VsCodeLap\HNPTHBJV240711> git add -f Module2/JDBC/src/ra
+[main aa09a24] JDBC240711
+ 8 files changed, 941 insertions(+)
+ create mode 100644 Module2/JDBC/src/ra/business/BookBusiness.java
+ create mode 100644 Module2/JDBC/src/ra/business/BookDAO.java
+ create mode 100644 Module2/JDBC/src/ra/business/BookTypeBusiness.java
+ create mode 100644 Module2/JDBC/src/ra/business/BookTypeDAO.java
+ create mode 100644 Module2/JDBC/src/ra/entity/Book.java
+ create mode 100644 Module2/JDBC/src/ra/entity/BookType.java
+ create mode 100644 Module2/JDBC/src/ra/entity/IBookManagement.java
+ create mode 100644 Module2/JDBC/src/ra/presentation/BookManagement.java
+PS F:\VsCodeLap\HNPTHBJV240711> git push origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (17/17), 8.67 KiB | 1.73 MiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/Casava2127/RK_HN_JavaJapan.git
+   071058f..aa09a24  main -> main
+PS F:\VsCodeLap\HNPTHBJV240711> 
