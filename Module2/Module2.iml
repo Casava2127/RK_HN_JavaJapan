@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ThucHanhOOPs/ThucHanhOOPs/out/production/ThucHanhOOPs/ra/entity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ThucHanhOOPs/ThucHanhOOPs/out/production/ThucHanhOOPs/ra/run" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/session4" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
