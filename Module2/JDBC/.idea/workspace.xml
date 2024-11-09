@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970e243c-a473-4c16-b83c-7f50f16a9c2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/HNPTHBJV240711.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/HNPTHBJV240711.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ra/business/BookTypeBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/business/BookTypeBusiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/libraries/mysql_connector_java_8_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/FK_HN_PTHB_JV240711_BS_NguyenMinhQuan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/StoreManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/procedure.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Casava2127&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Casava2127/RK_HN_JavaJapan.git&quot;,
+    &quot;accountId&quot;: &quot;2fb56199-8311-46e0-a934-90737351219d&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -37,41 +59,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Application.BookManagement.executor": "Run",
-    "Application.JDBCExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.UniversityDatabase.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/VsCodeLap/Module2_RK_HN/Module2/JDBC",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Application.BookManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBCExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniversityDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BookManagement">
+}</component>
+  <component name="RunManager" selected="Application.Demo1">
     <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ra.presentation.BookManagement" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ra.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadIO.Demo1" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.BookManagement" />
         <item itemvalue="Application.UniversityDatabase" />
         <item itemvalue="Application.Main" />
@@ -154,6 +191,8 @@
       <workItem from="1730466051230" duration="1651000" />
       <workItem from="1730467716822" duration="493000" />
       <workItem from="1730470624807" duration="46000" />
+      <workItem from="1730958087569" duration="5053000" />
+      <workItem from="1730982150909" duration="434000" />
     </task>
     <servers />
   </component>
