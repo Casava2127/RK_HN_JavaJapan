@@ -215,113 +215,6 @@ public class JDBCExample {
     }
 }
 ```
-
-Cấu trúc hoàn chỉnh của JDBC (Java Database Connectivity) bao gồm nhiều thành phần và bước để quản lý việc kết nối và tương tác với cơ sở dữ liệu. Dưới đây là mô tả chi tiết về cấu trúc này:
-
-### 1. **DriverManager**
-- **Mô tả**: Là một lớp quản lý các driver JDBC. Nó chịu trách nhiệm quản lý các kết nối cơ sở dữ liệu bằng cách tạo các đối tượng `Connection`.
-- **Chức năng**: Cung cấp phương thức `getConnection()` để thiết lập kết nối đến cơ sở dữ liệu.
-
-### 2. **Driver**
-- **Mô tả**: Là một giao diện trong JDBC, mỗi loại cơ sở dữ liệu có một driver tương ứng. Ví dụ: `com.mysql.cj.jdbc.Driver` cho MySQL.
-- **Chức năng**: Chuyển đổi các yêu cầu từ ứng dụng Java thành các lệnh mà cơ sở dữ liệu có thể hiểu.
-
-### 3. **Connection**
-- **Mô tả**: Đại diện cho một kết nối tới cơ sở dữ liệu. Đây là nơi mà bạn thực hiện các thao tác SQL.
-- **Chức năng**: Cung cấp các phương thức để tạo `Statement`, `PreparedStatement`, và `CallableStatement`.
-
-### 4. **Statement**
-- **Mô tả**: Giao diện cho phép bạn thực hiện các truy vấn SQL đơn giản.
-- **Chức năng**: Có thể sử dụng để thực hiện các lệnh SQL như `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
-
-### 5. **PreparedStatement**
-- **Mô tả**: Là một phần mở rộng của `Statement`, cho phép thực hiện các truy vấn SQL có tham số.
-- **Chức năng**: Tối ưu hiệu suất khi thực hiện nhiều lần cùng một truy vấn với các tham số khác nhau và giúp bảo vệ chống SQL Injection.
-
-### 6. **CallableStatement**
-- **Mô tả**: Dùng để gọi các thủ tục lưu trữ (stored procedures) trong cơ sở dữ liệu.
-- **Chức năng**: Cho phép thực hiện các truy vấn phức tạp hơn và có thể trả về nhiều kết quả.
-
-### 7. **ResultSet**
-- **Mô tả**: Đại diện cho kết quả của một truy vấn SQL. Nó cho phép duyệt qua các bản ghi (row) trong kết quả.
-- **Chức năng**: Cung cấp các phương thức để truy cập và thao tác dữ liệu, như `next()`, `getString()`, `getInt()`, v.v.
-
-### 8. **SQLException**
-- **Mô tả**: Lớp ngoại lệ được ném raExample khi có lỗi xảy raExample trong quá trình truy cập cơ sở dữ liệu.
-- **Chức năng**: Cung cấp thông tin về lỗi, chẳng hạn như mã lỗi, mô tả lỗi và trạng thái SQL.
-
-### 9. **DataSource**
-- **Mô tả**: Là một đối tượng thay thế cho `DriverManager`, cung cấp kết nối tới cơ sở dữ liệu.
-- **Chức năng**: Thích hợp cho các ứng dụng lớn và phức tạp, cho phép quản lý kết nối và cung cấp tính năng kết nối bền vững.
-
-### Quy trình Hoạt động Cơ Bản của JDBC
-1. **Tải Driver**: Sử dụng `Class.forName()` để tải driver JDBC cho cơ sở dữ liệu.
-2. **Thiết lập Kết nối**: Sử dụng `DriverManager.getConnection()` để tạo đối tượng `Connection`.
-3. **Tạo Statement**: Sử dụng phương thức `createStatement()` hoặc `prepareStatement()` từ đối tượng `Connection` để tạo đối tượng `Statement`.
-4. **Thực hiện Truy vấn**: Sử dụng đối tượng `Statement` để thực hiện các truy vấn SQL và nhận kết quả thông qua `ResultSet`.
-5. **Xử lý Kết quả**: Duyệt qua `ResultSet` để lấy dữ liệu.
-6. **Đóng Tài nguyên**: Đảm bảo đóng `ResultSet`, `Statement`, và `Connection` để giải phóng tài nguyên.
-
-### Ví dụ Cấu Trúc Hoàn Chỉnh của JDBC
-Dưới đây là một ví dụ đơn giản thể hiện cấu trúc hoàn chỉnh của JDBC:
-
-```java
-import java.sql.*;
-
-public class JDBCExample {
-    public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/UniversityDB";
-        String user = "username";
-        String password = "password";
-        
-        Connection connection = null;
-        Statement statement = null;
-        ResultSet resultSet = null;
-
-        try {
-            // Tải driver
-            Class.forName("com.mysql.cj.jdbc.Driver");
-
-            // Thiết lập kết nối
-            // tao 1 doi tuogn Connection tu phuong thuc getConnection cua class DriverManager
-            connection = DriverManager.getConnection(url, user, password); 
-            System.out.println("Kết nối thành công!");
-
-            // Tạo statement
-            statement = connection.createStatement();
-
-            // Thực hiện truy vấn
-            String sql = "SELECT * FROM Students";
-            resultSet = statement.executeQuery(sql);
-
-            // Xử lý kết quả
-            while (resultSet.next()) {
-                int id = resultSet.getInt("student_id");
-                String name = resultSet.getString("student_name");
-                System.out.println("ID: " + id + ", Name: " + name);
-            }
-
-        } catch (ClassNotFoundException e) {
-            System.out.println("Driver không tìm thấy: " + e.getMessage());
-        } catch (SQLException e) {
-            System.out.println("Lỗi SQL: " + e.getMessage());
-        } finally {
-            try {
-                if (resultSet != null) resultSet.close();
-                if (statement != null) statement.close();
-                if (connection != null) connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-}
-```
-
-### Kết Luận
-Cấu trúc hoàn chỉnh của JDBC cho phép bạn kết nối và tương tác với cơ sở dữ liệu một cách hiệu quả. Việc hiểu rõ từng thành phần và quy trình sẽ giúp bạn phát triển các ứng dụng Java có khả năng truy cập và quản lý dữ liệu từ cơ sở dữ liệu một cách dễ dàng. Nếu bạn có câu hỏi nào thêm, hãy cho tôi biết!
-
-
 ####QUY TRINH:
 Dưới đây là các câu trả lời cho những câu hỏi của bạn cùng với phần chỉnh sửa mô tả của bạn về kiến trúc kết nối của ứng dụng Java với cơ sở dữ liệu qua JDBC.
 
@@ -364,3 +257,8 @@ Một ứng dụng Java sẽ kết nối với cơ sở dữ liệu thông qua A
 ---
 
 Nếu bạn có câu hỏi nào khác hoặc cần thêm thông tin, hãy cho tôi biết!
+
+#### Phan biet luc nao dung
+executeQuery
+executeUpdate
+execute

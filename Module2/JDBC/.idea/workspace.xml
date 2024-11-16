@@ -5,20 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970e243c-a473-4c16-b83c-7f50f16a9c2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/libraries/mysql_connector_java_8_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/FK_HN_PTHB_JV240711_BS_NguyenMinhQuan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/StoreManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FK_HN_PTHB_JV240711/src/procedure.sql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/Example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/NoteSS1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/controller/CategoriesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/entity/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/reposistory/CategoriesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/reposistory/imp/CategoriesRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/service/CategoriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/util/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/categories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/newCatalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/updateCategories.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/artifacts/JSP_Servlet_Demo_main_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/NoteBatDauDuAn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/ipm/UserReposistoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/ipm/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/util/DatabaseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/bai2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,38 +99,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.BookManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniversityDatabase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.BookManagement.executor": "Run",
+    "Application.BookManagementGUI.executor": "Run",
+    "Application.Demo1.executor": "Run",
+    "Application.JDBCExample.executor": "Run",
+    "Application.JDBCExample1.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.UniversityDatabase.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Demo1">
+}]]></component>
+  <component name="RunManager" selected="Application.BookManagementGUI">
     <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ra.presentation.BookManagement" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ra.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagementGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.presentation.BookManagementGUI" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raExample.util.Main" />
+    <configuration name="JDBCExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raExample.util.JDBCExample1" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -141,26 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniversityDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raExample.util.Demo.UniversityDatabase" />
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="raExample.util.Demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.BookManagement" />
-        <item itemvalue="Application.UniversityDatabase" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BookManagementGUI" />
+        <item itemvalue="Application.JDBCExample1" />
         <item itemvalue="Application.JDBCExample" />
+        <item itemvalue="Application.BookManagement" />
+        <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +235,8 @@
       <workItem from="1730470624807" duration="46000" />
       <workItem from="1730958087569" duration="5053000" />
       <workItem from="1730982150909" duration="434000" />
+      <workItem from="1731559077156" duration="124000" />
+      <workItem from="1731563682618" duration="3292000" />
     </task>
     <servers />
   </component>

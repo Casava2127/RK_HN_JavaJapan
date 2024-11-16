@@ -9,7 +9,7 @@ import java.sql.Statement; // Nhập lớp Statement để thực thi các câu 
 public class JDBCExample {
     public static void main(String[] args) {
         // Định nghĩa các thông số kết nối
-        String url = "jdbc:mysql://localhost:3306/EcommerceDB"; // Địa chỉ URL của CSDL MySQL.
+        String url = "jdbc:mysql://localhost:3306/quanlythuvien"; // Địa chỉ URL của CSDL MySQL.
         String user = "root"; // Tên người dùng đăng nhập vào CSDL.
         String password = "123456"; // Mật khẩu của người dùng; cần thay đổi theo mật khẩu thực tế.
 
@@ -21,18 +21,22 @@ public class JDBCExample {
             Connection connection = DriverManager.getConnection(url, user, password); // Tạo kết nối đến CSDL bằng thông tin đã cung cấp.
             // tao 1 doi tuong Connection
 
-            // Tạo Statement
+            // Tạo doi tuong Statement
             Statement statement = connection.createStatement(); // Tạo đối tượng Statement để thực thi câu lệnh SQL.
             // tao doi tuong nay thong qua doi tuong connection
 
+//cach1
             // Thực thi truy vấn
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM product"); // Thực hiện truy vấn SQL để lấy tất cả sản phẩm từ bảng product.
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM book"); // Thực hiện truy vấn SQL để lấy tất cả sản phẩm từ bảng product
+            System.out.println(resultSet);// địa chỉ đối tượng của ResultSet
+
+            //phan biet ro excuteQuery, excuteUpdate, excute
+
 
             // Xử lý kết quả
             while (resultSet.next()) { // Duyệt qua từng bản ghi trong ResultSet.
-                System.out.println("ID: " + resultSet.getInt("id")); // In ra ID sản phẩm.
-                System.out.println("Name: " + resultSet.getString("product_name")); // In ra tên sản phẩm.
-            }
+                System.out.println("ID: " + resultSet.getInt("BookId") + " Name: "+ resultSet.getString(2)); // In ra ID sản phẩm.
+            }// getXXX(yyy)  thi y co the la tren truong hoac chi so thu tu cua truong trong bang
 
             // Đóng kết nối
             resultSet.close(); // Đóng ResultSet sau khi xử lý xong.
