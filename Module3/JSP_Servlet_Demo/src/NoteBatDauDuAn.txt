@@ -1,0 +1,123 @@
+Để khởi tạo một dự án Java EE với Servlet trong IntelliJ IDEA và sử dụng Tomcat 9.0.96, dưới đây là hướng dẫn từng bước và ví dụ cơ bản:
+
+### Bước 1: Cài đặt các công cụ cần thiết
+
+1. **IntelliJ IDEA**: Đảm bảo bạn đã cài đặt IntelliJ IDEA (phiên bản Ultimate).
+2. **Apache Tomcat 9.0.96**: Tải về từ trang web chính thức của [Tomcat](https://tomcat.apache.org/download-90.cgi) và cài đặt.
+
+### Bước 2: Tạo một dự án Java EE trong IntelliJ IDEA
+
+1. Mở IntelliJ IDEA và chọn **New Project**.
+2. Chọn **Java Enterprise** ở bên trái.
+3. Điền các thông tin dự án, chọn SDK (phiên bản JDK bạn cài đặt), chọn **Web Application** ở mục Additional Libraries and Frameworks.
+4. Nhấn **Next** và đặt tên cho dự án, sau đó chọn **Finish** để tạo dự án.
+
+### Bước 3: Cấu hình Tomcat 9.0.96 trong IntelliJ IDEA
+
+1. Vào **Run > Edit Configurations**.
+2. Nhấn **+** để thêm cấu hình mới và chọn **Tomcat Server > Local**.
+3. Đặt tên cho cấu hình (ví dụ: "Tomcat 9.0").
+4. Trong mục **Application server** nhấn **Configure…** và trỏ đến thư mục cài đặt Tomcat 9.0.96.
+5. Trong **Deployment**, nhấn **+** và chọn **Artifact** mà IntelliJ IDEA đã tạo tự động cho dự án của bạn.
+6. Nhấn **Apply** và **OK**.
+
+### Bước 4: Cấu trúc thư mục của dự án
+
+Sau khi tạo dự án, cấu trúc thư mục sẽ trông như sau:
+
+```
+YourProjectName/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com.example/               # Thư mục chứa mã nguồn Java
+│       │       └── HelloServlet.java      # Servlet mẫu
+│       └── webapp/
+│           ├── WEB-INF/
+│           │   └── web.xml                # File cấu hình cho Servlet
+│           └── index.jsp                  # Trang JSP mẫu
+└── out/
+```
+
+### Bước 5: Viết mã cho Servlet và JSP
+
+#### 1. **Tạo Servlet (HelloServlet.java)**
+
+Trong thư mục `src/main/java/com.example/`, tạo một lớp Java có tên `HelloServlet`:
+
+```java
+package com.example;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/hello") // Định tuyến Servlet đến URL /hello
+public class HelloServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Thiết lập kiểu nội dung
+        response.setContentType("text/html");
+
+        // Ghi dữ liệu HTML ra phản hồi
+        response.getWriter().println("<h1>Hello from HelloServlet!</h1>");
+    }
+}
+```
+
+#### 2. **Tạo file cấu hình web.xml**
+
+Trong thư mục `src/main/webapp/WEB-INF/`, tạo một file **web.xml** nếu chưa có. Nội dung file này như sau:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.example.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+</web-app>
+```
+
+#### 3. **Tạo file JSP (index.jsp)**
+
+Trong thư mục `src/main/webapp/`, tạo file **index.jsp** với nội dung như sau:
+
+```jsp
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+</head>
+<body>
+    <h1>Welcome to the Web Application!</h1>
+    <p>Click <a href="hello">here</a> to view the servlet response.</p>
+</body>
+</html>
+```
+
+### Bước 6: Chạy và kiểm tra ứng dụng
+
+1. Nhấn **Run** để khởi chạy cấu hình Tomcat đã thiết lập.
+2. Mở trình duyệt và truy cập địa chỉ [http://localhost:8080/YourProjectName](http://localhost:8080/YourProjectName).
+3. Trang **index.jsp** sẽ xuất hiện với đường dẫn đến servlet.
+4. Khi nhấn vào liên kết, servlet `HelloServlet` sẽ được gọi, hiển thị dòng chữ **Hello from HelloServlet!**.
+
+### Giải thích các file trong dự án
+
+- **HelloServlet.java**: Đây là Servlet xử lý các yêu cầu đến đường dẫn `/hello` và trả về nội dung HTML đơn giản.
+- **web.xml**: Đây là file cấu hình cho ứng dụng web, khai báo servlet và ánh xạ URL `/hello` đến `HelloServlet`.
+- **index.jsp**: Đây là trang JSP đơn giản, hiển thị thông báo chào mừng và chứa liên kết để truy cập vào `HelloServlet`.
+
+Với hướng dẫn này, bạn đã tạo thành công một dự án Java EE đơn giản với Servlet và JSP trong IntelliJ IDEA.
