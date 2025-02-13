@@ -28,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Casava2127"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Casava2127&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/quangndhn84/ra_jv240711_md2_springmvc.git",
-    "accountId": "2fb56199-8311-46e0-a934-90737351219d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/quangndhn84/ra_jv240711_md2_springmvc.git&quot;,
+    &quot;accountId&quot;: &quot;2fb56199-8311-46e0-a934-90737351219d&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -59,18 +59,23 @@
   "keyToString": {
     "Gradle.Build ra_jv240711_md2_springmvc.executor": "Run",
     "Gradle.ra_jv240711_md2_springmvc [dependencies].executor": "Run",
+    "Gradle.ra_jv240711_md2_springmvc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 9.0.96.executor": "Run",
     "Tomcat Server.Tomcat 9.0.97.executor": "Run",
     "Tomcat Server.index.jsp.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/VsCodeLap/RikkeiAC/BE_JV/Module3/ra_jv240711_md2_springmvc/src/main",
+    "last_opened_file_path": "F:/VsCodeLap/RikkeiAC/BE_JV/Module3/ra_jv240711_md3_SpringMVC_Hibernate1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
@@ -104,6 +109,26 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ra_jv240711_md2_springmvc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ra_jv240711_md2_springmvc" />
       <method v="2">
@@ -120,9 +145,9 @@
     <configuration name="Tomcat 9.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : ra : crud-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : ra : crud-1.0-SNAPSHOT.war (exploded)">
           <settings>
-            <option name="CONTEXT_PATH" value="/Gradle___ra___crud_1_0_SNAPSHOT_war" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -200,16 +225,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : ra : crud-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : ra : crud-1.0-SNAPSHOT.war (exploded)" />
         </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.ra_jv240711_md2_springmvc" />
       <item itemvalue="Gradle.ra_jv240711_md2_springmvc [dependencies]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.96" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ra_jv240711_md2_springmvc" />
         <item itemvalue="Gradle.ra_jv240711_md2_springmvc [dependencies]" />
       </list>
     </recent_temporary>
@@ -217,8 +244,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -234,6 +260,10 @@
       <workItem from="1732115812127" duration="23000" />
       <workItem from="1733287277684" duration="136000" />
       <workItem from="1733452465088" duration="1815000" />
+      <workItem from="1736928585200" duration="1587000" />
+      <workItem from="1736984317769" duration="835000" />
+      <workItem from="1739147953474" duration="1360000" />
+      <workItem from="1739204973631" duration="13000" />
     </task>
     <servers />
   </component>

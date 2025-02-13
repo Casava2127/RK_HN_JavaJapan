@@ -5,60 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970e243c-a473-4c16-b83c-7f50f16a9c2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/Example.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/NoteSS1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/controller/CategoriesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/entity/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/reposistory/CategoriesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/reposistory/imp/CategoriesRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/service/CategoriesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/com/util/ConnectionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/categories.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/newCatalog.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/updateCategories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPs2013/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPs2013/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPs2013/.idea/libraries/mysql_connector_java_8_0_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/artifacts/JSP_Servlet_Demo_main_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/NoteBatDauDuAn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/ipm/UserReposistoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/ipm/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/util/DatabaseUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_Servlet_Demo/src/main/webapp/users.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module3/bai2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ThayDoiNho.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ThayDoiNho.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/example.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/src/main/java/ra/crud/service/imp/DepartmentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/src/main/java/ra/crud/service/imp/DepartmentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/repository/imp/DepartmentRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate1/srcDefault/main/java/ra/crud/repository/imp/DepartmentRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/controller/CategoriesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/entity/Categories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/reposistory/CategoriesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/reposistory/imp/CategoriesRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/service/CategoriesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/java/ra/com/util/ConnectionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/views/categories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/views/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/views/newCategories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session01/src/main/webapp/views/updateCategories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/request/LoginDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/request/LoginDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/request/RegisterDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/request/RegisterDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/response/LoginDtoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/dto/response/LoginDtoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/GenericMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/GenericMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/LoginMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/LoginMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/RegisterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/mapper/RegisterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/repository/imp/UserRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/repository/imp/UserRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/service/imp/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_session06_validator_dto1/src/main/java/ra/demo/service/imp/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOPs2013/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOPs2013/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOPs2013/OOPs2013.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOPs2013/OOPs2013.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOPs2013/src/LapTrinhDaLuong/DemoDaLuong.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +123,7 @@
     "Application.UniversityDatabase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC",
     "node.js.detected.package.eslint": "true",
@@ -209,8 +222,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -237,6 +250,7 @@
       <workItem from="1730982150909" duration="434000" />
       <workItem from="1731559077156" duration="124000" />
       <workItem from="1731563682618" duration="3292000" />
+      <workItem from="1739353702125" duration="65000" />
     </task>
     <servers />
   </component>
