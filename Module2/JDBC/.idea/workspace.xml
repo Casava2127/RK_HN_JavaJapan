@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970e243c-a473-4c16-b83c-7f50f16a9c2b" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
@@ -31,6 +32,19 @@
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module4/Module4_SpringBoot_RestAPI" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module4/Module4_SpringBoot_RestAPI" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/service/imp/BookServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/service/imp/BookServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/util/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/util/ConnectionDB.java" afterDir="false" />
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +96,13 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.UniversityDatabase.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -104,7 +122,11 @@
     ]
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.BookManagement">
+=======
+  <component name="RunManager" selected="Application.BookManagementGUI">
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
     <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ra.presentation.BookManagement" />
       <module name="JDBC" />
@@ -211,9 +233,13 @@
       <workItem from="1730982150909" duration="434000" />
       <workItem from="1731559077156" duration="124000" />
       <workItem from="1731563682618" duration="3292000" />
+<<<<<<< HEAD
       <workItem from="1739353702125" duration="65000" />
       <workItem from="1743905580317" duration="971000" />
       <workItem from="1744210667796" duration="111000" />
+=======
+      <workItem from="1732687879747" duration="479000" />
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
     </task>
     <servers />
   </component>

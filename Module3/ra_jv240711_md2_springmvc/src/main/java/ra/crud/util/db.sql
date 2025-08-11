@@ -49,5 +49,10 @@ DELIMITER &&;
 INSERT INTO book (book_name, book_price, book_status) VALUES ('The Catcher in the Rye', 9.99, 1);
 INSERT INTO book (book_name, book_price, book_status) VALUES ('To Kill a Mockingbird', 10.99, 1);
 
+<<<<<<< HEAD
 # use bookmanager_db;
 # select  * from book;
+=======
+use bookmanager_db
+select  * from book;
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795

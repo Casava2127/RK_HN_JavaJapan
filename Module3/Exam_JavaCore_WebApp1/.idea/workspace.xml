@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f77518a8-7122-4a14-b638-1384faf053b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/model/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/repository/ClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/repository/imp/ClassRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam_JavaCore_WebApp/src/main/java/ra/demo/service/imp/ClassServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/JSP_Servlet_Flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/MD3 - Session 01 - JSP - Servlet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/Example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/NoteSS1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/controller/CategoriesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/entity/Categories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/reposistory/CategoriesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/reposistory/imp/CategoriesRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/service/CategoriesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/com/util/ConnectionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/reposistory/Imp/UserRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/reposistory/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/service/imp/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/java/ra/example/util/ConnectionDBUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/views/categories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/views/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/views/newCategories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/views/updateCategories.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/viewsUser/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/viewsUser/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_SV_SS1/src/main/webapp/viewsUser/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/artifacts/JSP_Servlet_Demo_main_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/NoteBatDauDuAn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/reposistory/ipm/UserReposistoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/service/ipm/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/java/ra/jsp_servlet_demo/util/DatabaseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP_Servlet_Demo/src/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/reposistory/Imp/UserRepositoryImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/reposistory/Imp/UserRepositoryImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/reposistory/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/reposistory/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/service/imp/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/WEB-INF/classes/ra/example/service/imp/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/views/categories.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97/webapps/ROOT/views/categories.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ra_jv240711_md3_SpringMVC_Hibernate" beforeDir="false" afterPath="$PROJECT_DIR$/../ra_jv240711_md3_SpringMVC_Hibernate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Casava2127"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Casava2127/RK_HN_JavaJapan.git",
+    "accountId": "2fb56199-8311-46e0-a934-90737351219d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2q7GXdPUhvipckPsDABln6W1Lb7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.97" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Gradle : ra : Exam_JavaCore_WebApp1-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___ra___Exam_JavaCore_WebApp1_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ra : Exam_JavaCore_WebApp1-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f77518a8-7122-4a14-b638-1384faf053b4" name="Changes" comment="" />
+      <created>1734006242949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734006242949</updated>
+      <workItem from="1734006244060" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -2,5 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/main/java/ra/crud/util/db.sql" dialect="MySQL" />
+<<<<<<< HEAD
+=======
+    <file url="file://$PROJECT_DIR$/src/main/java/ra/example/db1.sql" dialect="MySQL" />
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
   </component>
 </project>
