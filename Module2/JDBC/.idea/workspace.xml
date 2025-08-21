@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970e243c-a473-4c16-b83c-7f50f16a9c2b" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../TestJDBC/TestJDBC.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestJDBC/src/ra/business/BookBusiness.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestJDBC/src/ra/business/BookDAO.java" afterDir="false" />
@@ -17,6 +18,36 @@
       <change afterPath="$PROJECT_DIR$/../TestJDBC/src/ra/presentation/BookManagementGUI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestJDBC/src/ra/util/ConnectionDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Module3/Exam_JavaCore_WebApp/src/main/webapp/views/newStudent.jsp" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/reposistory/Imp/UserRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/reposistory/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/service/imp/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/java/ra/example/util/ConnectionDBUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/updateCategories.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/JSP_SV_SS1/src/main/webapp/views/updateCategories.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/controller/CategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/controller/CategoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/CategoriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/CategoriesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/imp/CategoriesRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/imp/CategoriesRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/CategoriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/CategoriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_employeeManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module4/Module4_SpringBoot_RestAPI" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module4/Module4_SpringBoot_RestAPI" afterDir="false" />
+=======
+>>>>>>> 58fcf45adaee18bd58db5bbe6c1e6ed0a5327db6
       <change beforePath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/JDBCExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raExample/util/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/raExample/util/Note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module3/Exam_JavaCore_WebApp/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/Exam_JavaCore_WebApp/.idea/dataSources.xml" afterDir="false" />
@@ -108,7 +139,16 @@
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md3_SpringMVC_Hibernate" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/service/imp/BookServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/service/imp/BookServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/util/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/ra_jv240711_md2_springmvc/src/main/java/ra/crud/util/ConnectionDB.java" afterDir="false" />
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
+>>>>>>> 58fcf45adaee18bd58db5bbe6c1e6ed0a5327db6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +200,17 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.UniversityDatabase.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+=======
+<<<<<<< HEAD
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+>>>>>>> 58fcf45adaee18bd58db5bbe6c1e6ed0a5327db6
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/VsCodeLap/HNPTHBJV240711/Module2/JDBC&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -181,7 +230,15 @@
     ]
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.BookManagement">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="Application.BookManagement">
+=======
+  <component name="RunManager" selected="Application.BookManagementGUI">
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
+>>>>>>> 58fcf45adaee18bd58db5bbe6c1e6ed0a5327db6
     <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ra.presentation.BookManagement" />
       <module name="JDBC" />
@@ -260,8 +317,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -288,9 +345,18 @@
       <workItem from="1730982150909" duration="434000" />
       <workItem from="1731559077156" duration="124000" />
       <workItem from="1731563682618" duration="3292000" />
+<<<<<<< HEAD
+      <workItem from="1739353702125" duration="65000" />
+      <workItem from="1743905580317" duration="971000" />
+      <workItem from="1744210667796" duration="111000" />
+=======
       <workItem from="1732687879747" duration="479000" />
+<<<<<<< HEAD
       <workItem from="1734539024374" duration="866000" />
       <workItem from="1734605856611" duration="3055000" />
+=======
+>>>>>>> 35f1f755a0eaf38e9502085027813e4819a1d795
+>>>>>>> 58fcf45adaee18bd58db5bbe6c1e6ed0a5327db6
     </task>
     <servers />
   </component>

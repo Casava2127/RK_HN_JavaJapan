@@ -1,7 +1,9 @@
-Để làm một ví dụ lớn hơn và có nhiều chức năng hơn trong ứng dụng Spring MVC, tôi sẽ xây dựng một ứng dụng quản lý sách đơn giản. Dự án này sẽ có các tính năng cơ bản như thêm sách, hiển thị danh sách sách và tìm kiếm sách. Dưới đây là cấu trúc thư mục, các lớp và phân tích chi tiết về luồng chạy của Spring MVC.
+Để làm một ví dụ lớn hơn và có nhiều chức năng hơn trong ứng dụng Spring MVC, tôi sẽ xây dựng một ứng dụng quản lý sách đơn giản. 
+Dự án này sẽ có các tính năng cơ bản như thêm sách, hiển thị danh sách sách và tìm kiếm sách.
+Dưới đây là cấu trúc thư mục, các lớp và phân tích chi tiết về luồng chạy của Spring MVC.
 https://tutorialspedia.com/how-java-spring-mvc-works-spring-mvc-request-flow-explained-step-by-step/
 ### 1. Cấu trúc thư mục của dự án
-
+WEb 1 khối và hướng dịch vụ
 ```
 book-app
 │
@@ -275,7 +277,8 @@ public class BookService {
 }
 ```### Phân tích chi tiết luồng chạy của ứng dụng Spring MVC
 
-Chúng ta sẽ phân tích luồng chạy chi tiết hơn dựa trên ví dụ ứng dụng quản lý sách, bắt đầu từ khi người dùng gửi yêu cầu đến khi hệ thống trả về kết quả.
+Chúng ta sẽ phân tích luồng chạy chi tiết hơn dựa trên ví dụ ứng dụng quản lý sách, 
+bắt đầu từ khi người dùng gửi yêu cầu đến khi hệ thống trả về kết quả.
 
 ### 1. **Khi người dùng truy cập vào URL `/books` để xem danh sách sách**
 
@@ -307,7 +310,8 @@ Model này chứa dữ liệu cần hiển thị trong view.
    `DispatcherServlet` sẽ tìm kiếm view phù hợp để hiển thị kết quả. Dựa trên cấu hình trong `viewResolver` của Spring (`/WEB-INF/views/` với suffix `.jsp`), Spring sẽ tìm file `book-list.jsp` trong thư mục `WEB-INF/views/`.
 
 7. **View trả kết quả cho người dùng:**  
-   Cuối cùng, file `book-list.jsp` sẽ được trả về cho người dùng. Trang web này sẽ hiển thị danh sách sách trong bảng, sử dụng JSTL để lặp qua các đối tượng `books` mà controller đã thêm vào model:
+   Cuối cùng, file `book-list.jsp` sẽ được trả về cho người dùng.
+   Trang web này sẽ hiển thị danh sách sách trong bảng, sử dụng JSTL để lặp qua các đối tượng `books` mà controller đã thêm vào model:
    ```jsp
    <c:forEach var="book" items="${books}">
        <tr>

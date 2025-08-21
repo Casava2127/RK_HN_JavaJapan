@@ -8,9 +8,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-// Đánh dấu lớp này là một lớp cấu hình trong Spring Framework.
+// Đánh dấu lớp này là một lớp cấu hình trong Spring Framework, duoc Spring containerq quan ly va tao bean
 //Tương đương với file XML trong cấu hình Spring truyền thống.
-@EnableWebMvc //Kích hoạt các tính năng của Spring MVC, như xử lý yêu cầu HTTP, ánh xạ URL, và hỗ trợ RESTful API.
+@EnableWebMvc //KICH HOAT các tính năng của Spring MVC, như xử lý yêu cầu HTTP, ánh xạ URL, và hỗ trợ RESTful API.
 @ComponentScan(basePackages = {"ra.crud.controller", "ra.crud.repository.imp", "ra.crud.service.imp"})// Chỉ định các package mà Spring sẽ quét để tìm các bean hoặc thành phần như @Controller, @Service, @Repository.
 public class AppConfig {
     //Cấu hình ViewResolver
