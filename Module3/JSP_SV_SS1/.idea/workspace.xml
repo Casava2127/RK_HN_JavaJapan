@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02a8e3fb-d08f-4dad-b32f-904e5ad8ff58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NoteJSP-Servlet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/views/categories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/views/newCategories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/views/updateCategories.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/reposistory/Imp/UserRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/reposistory/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/service/imp/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/example/util/ConnectionDBUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/updateCategories.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/updateCategories.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/controller/CategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/controller/CategoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/CategoriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/CategoriesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/imp/CategoriesRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/repository/imp/CategoriesRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/CategoriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/CategoriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/java/ra/com/service/imp/CategoriesServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_MD3_SS1_JSP_Servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RUM_ra_jv240711_session06_validate_databinder_dto/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RUM_ra_jv240711_session06_validate_databinder_dto/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ra_jv240711_md3_SpringMVC_Hibernate1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ra_jv240711_md3_SpringMVC_Hibernate1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Servlet" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Casava2127&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Casava2127/Module3_JVRK_SpringMVC.git&quot;,
+    &quot;accountId&quot;: &quot;2fb56199-8311-46e0-a934-90737351219d&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ojHqzYQJzpIWXI0Teh6OBfFS7V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build JSP_SV_SS1.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 9.0.97.executor": "Run",
+    "Tomcat Server.index.jsp.executor": "Run",
+    "Tomcat Server.user.jsp.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/VsCodeLap/RikkeiAC/BE_JV/Module3/JSP_SV_SS1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.268",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\java\ra\com" />
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\webapp" />
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\webapp\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\java\ra\com" />
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\webapp\WEB-INF" />
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\webapp" />
+      <recent name="F:\VsCodeLap\HNPTHBJV240711\Module3\JSP_SV_SS1\src\main\resources\META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ra.example.reposistory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.97">
+    <configuration name="Tomcat 9.0.97" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a01f985b-e767-45d6-9180-dd0fd3183acd" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61132" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___ra___com_1_0_SNAPSHOT_war__exploded_" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d09c5b91-4114-4fd0-9a04-e4a8e0eb434d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="user.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user.jsp" />
+      <deployment>
+        <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___ra___com_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5031fdc7-ddcf-40ef-a4b3-0584016f261f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ra : com-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.user.jsp" />
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02a8e3fb-d08f-4dad-b32f-904e5ad8ff58" name="Changes" comment="" />
+      <created>1731376262232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731376262232</updated>
+      <workItem from="1731376263063" duration="709000" />
+      <workItem from="1731386470048" duration="6663000" />
+      <workItem from="1731406997083" duration="7426000" />
+      <workItem from="1731504324756" duration="1712000" />
+      <workItem from="1731549824234" duration="5933000" />
+      <workItem from="1731555796654" duration="418000" />
+      <workItem from="1731556230779" duration="2424000" />
+      <workItem from="1731561632073" duration="1309000" />
+      <workItem from="1731566746901" duration="2190000" />
+      <workItem from="1731577609760" duration="7453000" />
+      <workItem from="1731633185932" duration="6916000" />
+      <workItem from="1731656294413" duration="5994000" />
+      <workItem from="1731752991808" duration="270000" />
+      <workItem from="1731754098353" duration="602000" />
+      <workItem from="1731976047639" duration="346000" />
+      <workItem from="1732018103340" duration="184000" />
+      <workItem from="1732018364898" duration="624000" />
+      <workItem from="1732077882881" duration="57000" />
+      <workItem from="1732078102454" duration="125000" />
+      <workItem from="1733451006882" duration="1398000" />
+      <workItem from="1736228990672" duration="629000" />
+      <workItem from="1736926795191" duration="2079000" />
+      <workItem from="1736985186978" duration="294000" />
+      <workItem from="1738913757875" duration="155000" />
+      <workItem from="1738914037680" duration="2413000" />
+      <workItem from="1739147275184" duration="84000" />
+      <workItem from="1739147377201" duration="1949000" />
+      <workItem from="1739205002366" duration="857000" />
+      <workItem from="1739491616223" duration="2218000" />
+      <workItem from="1739690085410" duration="210000" />
+      <workItem from="1739690318092" duration="6538000" />
+      <workItem from="1746753256843" duration="545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/updateCategories.jsp</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
