@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/users")
+//@WebServlet("/users")
 public class UserController extends HttpServlet {
     private UserService userService = new UserServiceImpl();
 

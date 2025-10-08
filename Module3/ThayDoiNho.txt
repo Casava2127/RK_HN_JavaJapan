@@ -1,95 +1,119 @@
-Khi bạn thực hiện một thay đổi rất nhỏ trong một tệp (ví dụ: sửa một ký tự, thêm một dòng mới, hoặc thay đổi một khoảng trắng), Git vẫn có thể nhận diện được sự thay đổi và bạn có thể thêm những thay đổi đó vào Staging Area và commit chúng như bình thường.
-
-co thay doi nho
-
-
-
-rum moi thay doi
-
-nho nho
-
-
-
-
-
-nguwywnm ihauisjda
-
-Tuy nhiên, nếu bạn muốn Git nhận diện các thay đổi nhỏ mà không gặp phải vấn đề gì, dưới đây là một số điều bạn có thể kiểm tra và làm:
-
-### **1. Kiểm tra trạng thái với `git status`**
-
-Trước tiên, hãy kiểm tra xem Git có nhận diện được sự thay đổi trong tệp hay không. Dùng lệnh:
-
-```bash
-git status
-```
-
-Nếu bạn thấy tệp có thay đổi, nó sẽ được liệt kê trong "Changes not staged for commit". Nếu không có thay đổi, Git sẽ hiển thị thông báo "nothing to commit, working tree clean".
-
-### **2. Thêm thay đổi vào Staging Area**
-
-Sau khi Git nhận diện sự thay đổi trong tệp, bạn có thể thêm tệp vào Staging Area bằng cách sử dụng lệnh `git add`:
-
-- Nếu bạn muốn thêm một tệp cụ thể (ví dụ: `file.txt`):
-  ```bash
-  git add file.txt
-  ```
-
-- Nếu bạn muốn thêm tất cả tệp có thay đổi (bao gồm cả những thay đổi nhỏ):
-  ```bash
-  git add -A
-  ```
-
-### **3. Kiểm tra sự thay đổi nhỏ**
-
-Một cách để kiểm tra các thay đổi nhỏ là sử dụng lệnh `git diff`, sẽ hiển thị sự khác biệt giữa phiên bản hiện tại và phiên bản trước đó của tệp.
-
-- Để xem sự khác biệt trong tất cả các tệp đã thay đổi:
-  ```bash
-  git diff
-  ```
-
-- Để xem sự khác biệt của một tệp cụ thể:
-  ```bash
-  git diff file.txt
-  ```
-
-Lệnh này sẽ hiển thị các sự thay đổi giữa phiên bản trước đó và hiện tại của tệp, bao gồm sự thay đổi nhỏ như thay đổi một ký tự hay khoảng trắng.
-
-### **4. Commit thay đổi**
-
-Sau khi bạn đã thêm các tệp vào Staging Area, bạn có thể commit chúng:
-
-```bash
-git commit -m "Cập nhật các thay đổi nhỏ"
-```
-
-### **5. Đẩy thay đổi lên Git remote**
-
-Sau khi commit, đừng quên đẩy thay đổi của bạn lên Git remote (như GitHub) để lưu lại và chia sẻ:
-
-```bash
-git push origin main
-```
-
-### **6. Kiểm tra cấu hình của Git nếu không nhận diện thay đổi nhỏ**
-
-Nếu Git không nhận diện các thay đổi nhỏ (ví dụ, bạn đã thay đổi một ký tự nhưng Git không ghi nhận), có thể do cấu hình của Git không được thiết lập đúng để nhận diện thay đổi ở cấp độ tệp.
-
-Để kiểm tra, bạn có thể thay đổi cấu hình nhận diện thay đổi của Git:
-
-- Kiểm tra cấu hình theo dõi thay đổi:
-  ```bash
-  git config --global core.autocrlf true
-  ```
-
-Cấu hình này có thể giúp Git nhận diện các thay đổi nhỏ, đặc biệt là các thay đổi trong ký tự kết thúc dòng (line endings) trên các hệ điều hành khác nhau (Windows và macOS/Linux).
+Lỗi **“Error: Application Server not specified”** trong IntelliJ khi deploy project Tomcat thường xuất hiện vì **IDE chưa biết bạn muốn deploy ứng dụng lên server nào**. Đây là lỗi cấu hình IDE, không phải lỗi Tomcat hay code.
 
 ---
 
-### **Tóm lại**:
-- **Git vẫn nhận diện các thay đổi nhỏ** trong tệp, miễn là bạn thêm chúng vào Staging Area (với `git add`).
-- Kiểm tra các thay đổi với `git status` và `git diff`.
-- Nếu Git không nhận diện thay đổi nhỏ, kiểm tra cấu hình của Git và thử lại.
+### **Nguyên nhân:**
 
-Nếu bạn vẫn gặp vấn đề, đừng ngần ngại yêu cầu thêm trợ giúp! 😊
+1. Chưa khai báo **Application Server (Tomcat)** trong IntelliJ.
+2. Chưa gán **artifact WAR / exploded WAR** cho server.
+3. Chưa tạo **Run/Debug Configuration** đúng kiểu `Tomcat Server → Local`.
+
+---
+
+### **Cách khắc phục:**
+
+#### **Bước 1: Thêm Tomcat vào IntelliJ**
+
+1. Vào **File → Settings → Build, Execution, Deployment → Application Servers**
+2. Nhấn **+ → Tomcat Server**
+3. Chọn thư mục cài đặt Tomcat (`C:\tomcat\apache-tomcat-8.5.88`)
+4. Nhấn **OK** để lưu.
+
+---
+
+#### **Bước 2: Tạo Run/Debug Configuration**
+
+1. Vào **Run → Edit Configurations…**
+2. Nhấn **+ → Tomcat Server → Local**
+3. Trong tab **Server**:
+
+   * Chọn **Application Server** là Tomcat vừa thêm.
+4. Trong tab **Deployment**:
+
+   * Nhấn **+ → Artifact → chọn WAR / exploded WAR của project**
+   * Chọn `Application context` (ví dụ `/` hoặc `/JSP_Servlet_Demo`)
+5. Nhấn **OK** để lưu.
+
+---
+
+#### **Bước 3: Chạy Project**
+
+* Chọn configuration vừa tạo → nhấn **Run**.
+* IntelliJ sẽ deploy artifact lên Tomcat.
+
+---
+
+### **Lưu ý:**
+
+* Nếu project dùng **Gradle**, đảm bảo artifact WAR đã build (`./gradlew build`) trước khi deploy.
+* Tránh duplicate artifact mapping trong server, nếu không IntelliJ sẽ báo lỗi deploy.
+
+---
+
+Mình giải thích chi tiết từng khái niệm và vai trò trong IntelliJ khi làm việc với Tomcat và Java web project nhé:
+
+---
+
+## **1️⃣ Tomcat – Application Server**
+
+* **Vai trò:** Nơi **chạy ứng dụng web** (Servlet, JSP, REST).
+* **Chức năng chính:**
+
+  1. Xử lý HTTP request từ client.
+  2. Forward request đến Servlet/JSP tương ứng.
+  3. Quản lý lifecycle của servlet (`init()`, `service()`, `destroy()`).
+  4. Host nhiều web application cùng lúc (qua context path).
+
+> Nói nôm na: Tomcat giống như “máy chủ web” để chạy project của bạn.
+
+---
+
+## **2️⃣ Artifact WAR / Exploded WAR**
+
+### **Artifact là gì?**
+
+* Là **sản phẩm build** của project, có thể deploy lên server.
+* Trong IntelliJ/Gradle/Maven, artifact thường là:
+
+  * **WAR (Web Archive)**: một file `.war` chứa tất cả class, JSP, lib, web.xml.
+  * **Exploded WAR**: dạng folder **giải nén của WAR**, IntelliJ có thể deploy trực tiếp mà không phải đóng gói.
+
+### **Vai trò:**
+
+* Artifact là thứ mà Tomcat “cầm” để chạy ứng dụng.
+* **WAR**: deploy như một file duy nhất, Tomcat giải nén khi cần.
+* **Exploded WAR**: deploy trực tiếp từ folder, dễ chỉnh sửa JSP/class mà không phải rebuild cả WAR.
+
+---
+
+## **3️⃣ Run/Debug Configuration**
+
+* **Vai trò:** Nơi IntelliJ biết **chạy project như thế nào**.
+* Thường gồm:
+
+  1. **Server:** chọn Tomcat nào sẽ chạy project.
+  2. **Deployment:** chọn artifact WAR/Exploded WAR để deploy lên server.
+  3. **JVM options / Environment variables:** chỉnh port, memory, debug,…
+
+### **Luồng hoạt động khi nhấn Run:**
+
+1. IntelliJ đọc Run Configuration → biết deploy artifact nào lên server nào.
+2. IntelliJ build artifact (nếu cần) → copy lên Tomcat.
+3. Tomcat start → ứng dụng sẵn sàng phục vụ HTTP request.
+4. Nếu dùng **Debug**, IntelliJ gắn debugger vào JVM của Tomcat.
+
+---
+
+### **Tóm tắt vai trò**
+
+| Thành phần                  | Vai trò chính                                                                |
+| --------------------------- | ---------------------------------------------------------------------------- |
+| Tomcat                      | Server chạy ứng dụng web, xử lý request                                      |
+| Artifact WAR / Exploded WAR | Sản phẩm build của project, deploy lên server                                |
+| Run/Debug Configuration     | Nơi IntelliJ biết dùng server nào và artifact nào để chạy hoặc debug project |
+
+---
+
+Nếu bạn muốn, mình có thể vẽ **sơ đồ trực quan luồng request từ client → IntelliJ → Artifact → Tomcat → Servlet/JSP** để bạn hình dung toàn bộ.
+
+Bạn có muốn mình vẽ không?
